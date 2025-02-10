@@ -152,6 +152,20 @@ body {
       
     }
   }
+  .Contact_us{
+    margin-top: 70px;
+    border: 2px solid black;
+    height: 300px;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Rubik Wet Paint", serif;
+    font-style: normal;
+    a{
+      color: black;
+      cursor: pointer;
+      background-color: rgb(248, 97, 97);
+    }
+  }
  
 
 
@@ -284,7 +298,7 @@ body {
     
       }
       .title_product{
-        border: 5px solid red;
+        /* border: 5px solid red; */
         margin-top: 30px;
         text-align: center;
         font-family: "Rubik Wet Paint", serif;
