@@ -19,7 +19,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap" rel="stylesheet">
-      
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
 
 </head>
 <body>
@@ -38,7 +39,7 @@
     <header>
         <div class="box">
             <div class=" box_s1">
-                <a href="index.html"><img class="headerLogoImg" src="img/image.png" alt="logo to wabside"></a>
+                <a href="index.html"><img class="headerLogoImg" src="img/logo.png" alt="logo to wabside"></a>
             </div>
 
 
@@ -116,6 +117,23 @@
             </div>
         </div>  
     </div>
+    <h1 class="title_product">אודותינו</h1>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="img/whatwsUp.jpg" alt="תמונה 1"></div>
+            <div class="swiper-slide"><img src="img/whatwsUp.jpg" alt="תמונה 2"></div>
+            <div class="swiper-slide"><img src="img/whatwsUp.jpg" alt="תמונה 3"></div>
+            <div class="swiper-slide"><img src="img/whatwsUp.jpg" alt="תמונה 4"></div>
+        </div>
+    
+        <!-- חיצים -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    
+        <!-- נקודות ניווט -->
+        <div class="swiper-pagination"></div>
+    </div>
+    
     </main>
     <footer>
         <div class="title_product">
@@ -123,25 +141,25 @@
         </div>
         <div class=" row">
             <div class="Contact_us col-md-6 col-sm-12">
-                <a href="tel:972555508778" class="call-button" alt="logo of phone">
+                <a href="tel:9720537285996" class="call-button" alt="logo of phone">
                     <p><i class="fa fa-phone-square" aria-hidden="true"></i>
-                        טלפון : 0555508778</p>
+                        טלפון : 0537285996</p>
                 </a>
                 <!-- <a href="mailto:matar_@outlook.co.il?subject=Hello%20There"
                     class="email-button" alt="logo of mail"> -->
-                    <a href="mailto:matar_@outlook.co.il?body=היי%20אשמח%20לקבל%20הצעת%20מחיר.%0Aפרטי%20חזרה%20ללקוח.%0Aטל:%0Aתיאור הבעיה בקצרה:" class="email-button" title="Send an email"
+                    <a href="mailto:prielgozlan@gmail.com?body=היי%20אשמח%20לקבל%20הצעת%20מחיר.%0Aפרטי%20חזרה%20ללקוח.%0Aטל:%0Aתיאור הבעיה בקצרה:" class="email-button" title="Send an email"
                     class="email-button" alt="logo of mail">
                     
                       
                     <p><i class="fa fa-envelope" aria-hidden="true"></i>
-                        דוא"ל : matar_@outlook.co.il</p>
+                        דוא"ל : prielgozlan@gmail.com</p>
                 </a>
                 <p><i class="fa fa-map-marker" aria-hidden="true"></i>
                     כתובת : כל הארץ</p>
                 <a href="accessibilit.html" class="email-button" target="_blank" alt="accessibility"><p>הצהרת נגישות</p></a>
             </div>
             <div class="Contact_us col-md-6 col-sm-12">
-                <p>צוות המומחים של ______ ישמחו לעמוד לרשותך בכל נושא. אנו ערוכים להעניק שירות בזמן
+                <p>צוות המומחים של בית המצבר ישמחו לעמוד לרשותך בכל נושא. אנו ערוכים להעניק שירות בזמן
                     מהיר, שירות איכותי, מקצועי והוגן.
 
                 </p>
@@ -177,6 +195,37 @@
 <script>
     AOS.init();
 </script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+    var swiper = new Swiper(".swiper-container", {
+        effect: "coverflow", // אפקט תלת-ממד
+        grabCursor: true, // הופך את המעבר לחלק יותר
+        centeredSlides: true, // השקופית המרכזית תהיה בפוקוס
+        slidesPerView: "auto", // מתאים את הגודל של התמונות
+        coverflowEffect: {
+            rotate: 50, // סיבוב קל של השקופיות
+            stretch: 0, // מתיחה - אפשר לשנות לערך גבוה לנראות רחבה יותר
+            depth: 200, // עומק תלת-ממדי
+            modifier: 1, // שליטה על העוצמה של האפקט
+            slideShadows: true // הצללות תלת-ממדיות
+        },
+        loop: true, // חזרה אינסופית
+        autoplay: {
+            delay: 3000,
+            disableOnInteraction: false
+        },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev"
+        },
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true
+        }
+    });
+</script>
+
+
 <script src="js/burger.js"></script>
 <script>
     nagishli_config = {
