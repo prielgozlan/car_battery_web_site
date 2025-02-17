@@ -154,7 +154,7 @@ body {
     }
   }
   .swiper-container {
-    /* border: 2px solid black; */
+    border: 2px solid black;
     width: 310px;
     height: 600px;
     margin: auto;
@@ -163,6 +163,7 @@ body {
 }
 
 .swiper-slide {
+  border: 2px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -178,7 +179,7 @@ body {
 }
 .border_to_swiper{
   width: 100%;
-  /* border: 2px solid black; */
+  border: 2px solid black;
 }
   .Contact_us{
     margin-top: 120px;
@@ -296,16 +297,10 @@ body {
       max-width: 750px;
       border: none;
       border-radius: none;
+      border: 2px solid black;
     }
-    .swiper-container{
-      height: 350px;
-      width: 200px;
-
-      
-    }
-    .swiper-slide img{
-      height: 300px;
-      width: 190px;
+    .border_to_swiper{
+      display: none;
     }
       
     
@@ -358,14 +353,8 @@ body {
         border: none;
         border-radius: none;
       }
-      .swiper-container{
-        height: 350px;
-        width: 200px;
-        
-      }
-      .swiper-slide img{
-        height: 300px;
-        width: 190px;
+      .border_to_swiper{
+        display: none;
       }
 }
   
