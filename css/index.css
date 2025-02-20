@@ -217,7 +217,17 @@ body {
     }
   }
   
-
+  .accessibility {
+    min-height: 500px;
+    background: white;
+    text-align: center;
+    padding: 35px;
+    p {
+      font-size: 22px;
+      text-align: right;
+      padding: 10px;
+    }
+  }
 
   
 @media (max-width: 768px) {
