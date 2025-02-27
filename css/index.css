@@ -166,6 +166,10 @@ body {
       border-radius: 10px;
       margin-top: 20px;
     }
+    h1{
+      color: rgb(3, 3, 253);
+      font-size: 60px;
+    }
  
   }
   .main{
@@ -329,7 +333,7 @@ body {
       .box_main{
         min-width: 470px;
         max-height: 300px;
-        border: 2px solid black;
+        /* border: 2px solid black; */
         text-align: center;
         padding-top: 150px;
         background-image: url("../img/BatteryRepair2.png");
@@ -351,13 +355,14 @@ body {
           border-radius: 10px;
           margin-top: 20px;
         }
+
      
       }
     .box_product{
       max-width: 750px;
       border: none;
       border-radius: none;
-      border: 2px solid black;
+      /* border: 2px solid black; */
     }
     .border_to_swiper{
       display: none;
@@ -370,7 +375,7 @@ body {
         z-index: 4;
         border-bottom-left-radius: 15px;
         border-bottom-right-radius: 15px;
-        border: 1px solid black;
+        /* border: 1px solid black; */
       }
       .carousel{
         display: block;
@@ -380,6 +385,9 @@ body {
           width: 300px;
           height: 300px;
         }
+      }
+      .border_to_swiper{
+        display: none;
       }
       
 }
