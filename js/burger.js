@@ -17,7 +17,7 @@ function declareBtns(){
 declareBtns();
 
 function scrollToSection1(){
-  document.getElementById("section1").scrollIntoView({ behavior: "smooth" });
+  document.getElementById("section1").scrollIntoView({ behavior: "smooth"});
   let nav_open = document.querySelector("#nav_open");
   if(window.innerWidth <= 768){
     nav_open.style.display = "none"
@@ -48,6 +48,20 @@ function scrollToSection4(){
 }
 function scrollToSection5(){
   document.getElementById("section5").scrollIntoView({ behavior: "smooth" });
+  let nav_open = document.querySelector("#nav_open");
+  if(window.innerWidth <= 768){
+    nav_open.style.display = "none"
+    }
+}
+function scrollToSection6(){
+  document.getElementById("section6").scrollIntoView({ behavior: "smooth" });
+  let nav_open = document.querySelector("#nav_open");
+  if(window.innerWidth <= 768){
+    nav_open.style.display = "none"
+    }
+}
+function scrollToSection7(){
+  document.getElementById("section7").scrollIntoView({ behavior: "smooth" });
   let nav_open = document.querySelector("#nav_open");
   if(window.innerWidth <= 768){
     nav_open.style.display = "none"
