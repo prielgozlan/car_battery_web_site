@@ -1,69 +1,32 @@
+
+
 function declareBtns(){
   let burger_btn = document.querySelector("#burger_btn");
   let nav_open = document.querySelector("#nav_open");
   burger_btn.addEventListener("click",function(){
-    //
     (nav_open.style.display != "block") ?  nav_open.style.display = "block" :  nav_open.style.display = "none";
-    
-    // if(nav_open.style.display != "block"){
-    //   nav_open.style.display = "block";
-    // }
-    // else{
-    //   nav_open.style.display = "none";
-    // }
+  })
+}
+function declareBtns2(){
+  let burger_btn = document.querySelector("#Pop-up_ad");
+  let burger_btn2 = document.querySelector("#cc");
+  
+  let nav_open = document.querySelector("#ad_open");
+  burger_btn.addEventListener("click",function(){
+    (nav_open.style.display != "block") ?  nav_open.style.display = "block" :  nav_open.style.display = "none";
+  })
+  burger_btn2.addEventListener("click",function(){
+    (nav_open.style.display != "block") ?  nav_open.style.display = "block" :  nav_open.style.display = "none";
   })
 }
 
 declareBtns();
+declareBtns2();
 
-function scrollToSection1(){
-  document.getElementById("section1").scrollIntoView({ behavior: "smooth"});
+function scrollToSection(nameIndex){
+  document.getElementById(nameIndex).scrollIntoView({ behavior: "smooth"});
   let nav_open = document.querySelector("#nav_open");
   if(window.innerWidth <= 768){
     nav_open.style.display = "none"
     }
-
-
-}
-function scrollToSection2(){
-  document.getElementById("section2").scrollIntoView({ behavior: "smooth" });
-  let nav_open = document.querySelector("#nav_open");
-  if(window.innerWidth <= 768){
-  nav_open.style.display = "none"
   }
-}
-function scrollToSection3(){
-  document.getElementById("section3").scrollIntoView({ behavior: "smooth" });
-  let nav_open = document.querySelector("#nav_open");
-  if(window.innerWidth <= 768){
-    nav_open.style.display = "none"
-    }
-}
-function scrollToSection4(){
-  document.getElementById("section4").scrollIntoView({ behavior: "smooth" });
-  let nav_open = document.querySelector("#nav_open");
-  if(window.innerWidth <= 768){
-    nav_open.style.display = "none"
-    }
-}
-function scrollToSection5(){
-  document.getElementById("section5").scrollIntoView({ behavior: "smooth" });
-  let nav_open = document.querySelector("#nav_open");
-  if(window.innerWidth <= 768){
-    nav_open.style.display = "none"
-    }
-}
-function scrollToSection6(){
-  document.getElementById("section6").scrollIntoView({ behavior: "smooth" });
-  let nav_open = document.querySelector("#nav_open");
-  if(window.innerWidth <= 768){
-    nav_open.style.display = "none"
-    }
-}
-function scrollToSection7(){
-  document.getElementById("section7").scrollIntoView({ behavior: "smooth" });
-  let nav_open = document.querySelector("#nav_open");
-  if(window.innerWidth <= 768){
-    nav_open.style.display = "none"
-    }
-}

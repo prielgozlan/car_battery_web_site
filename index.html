@@ -41,34 +41,38 @@
             <div class=" box_s1">
                 <a href="index.html"><img class="headerLogoImg" src="img/logo.png" alt="logo to wabside"></a>
             </div>
-
-
-
-            <div class="burger">
+        <div class="burger">
                 <!-- כדי שהסקריפט יעבוד צריך להוסיף איי די לבורגר -->
                 <i id="burger_btn" class="fa fa-bars" aria-hidden="true"></i>
-
-
-            </div>
+        </div>
         </div>
         <nav id="nav_open" class="box_s2">
-            <!-- <a class="box_a" onclick=scrollToSection1() alt="buttom" href="#projects">המוצרים שלנו</a> -->
             <div class="dropdown">
                 <a class="dropbtn">המוצרים שלנו</a>
                 <div class="dropdown-content">
-                    <button onclick=scrollToSection1()>מצברי שנפ</button>
-                    <button onclick=scrollToSection4()>מצברי וורטה</button>
-                    <button onclick=scrollToSection5()>מצברי וורטה שחור</button>
-                    <button onclick=scrollToSection6()>מצברי טיטניום</button>
-                    <button onclick=scrollToSection7()>מצברי אופנועים</button>
+                    <button onclick="scrollToSection('section1')">מצברי שנפ</button>
+                    <button onclick="scrollToSection('section4')">מצברי וורטה</button>
+                    <button onclick="scrollToSection('section5')">מצברי וורטה שחור</button>
+                    <button onclick="scrollToSection('section6')">מצברי טיטניום</button>
+                    <button onclick="scrollToSection('section7')">מצברי אופנועים</button>
                 </div>
             </div>
-            <a class="box_a" onclick=scrollToSection2() alt="buttom" href="#contact">אודותינו</a>
-            <a class="box_a" onclick=scrollToSection3() alt="buttom" href="#about">צור קשר</a>
+            <a class="box_a" onclick="scrollToSection('section2')" alt="buttom" href="#contact">אודותינו</a>
+            <a class="box_a" onclick="scrollToSection('section3')" alt="buttom" href="#about">צור קשר</a>
         </nav>
         
     </header>
     <main>
+        <div class="Pop-up_ad" id="ad_open">
+            <div class="Pop-up_ad_btn">
+            <button id="cc">x</button>
+            </div>
+            <div class="Pop-up_ad_text">
+            <h1>להזמנות צרו קשר </h1>
+            <a href="tel:972537285996" class="call-button"><img src="img/images_preview_rev_1.png" alt="phone"></a>
+            <a href="https://wa.me/972537285996?text=היי%20אשמח%20לקבל%20הצעת%20מחיר.%0Aבנוגע%20ל" target="_blank"><img src="img/whatsapp.png" alt="whatsUp"></a>
+            </div>
+       </div>
         <div class="box_main">
             <h1>נתקעתם , האוטו לא מניע , המצבר הלך!!</h1>
             <h1>אנחנו כבר בדרך אליכם.</h1>
@@ -86,11 +90,13 @@
           <div class="box_product row">
             <div class="product_1 col-lg-4 col-md-6 col-sm-12" data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
-            data-aos-duration="2000">
+            data-aos-duration="2000" id="Pop-up_ad">
                 <img src="img/battery-pic-04.jpg">
                 <h1>מצברי שנפ 60AH</h1>
                 <P>החל 520₪</P>
+                
             </div>
+        
             <div class="product_1 col-lg-4 col-md-6 col-sm-12" data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000">
