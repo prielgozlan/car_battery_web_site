@@ -41,13 +41,13 @@ body {
     width: 400px;
     height: 400px;
     right: 450px;
-    bottom:-15px;
+    bottom:150px;
     background: rgb(186, 187, 184);
     border: 2px solid black;
     text-align: center;
     box-shadow: 0 0 15px black;
     border-radius: 10%;
-    z-index: 8;
+    z-index: 10;
 
     img{
       width: 70px;
