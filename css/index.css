@@ -41,7 +41,7 @@ body {
     width: 400px;
     height: 400px;
     right: 450px;
-    top:50px;
+    bottom:-50px;
     background: rgb(186, 187, 184);
     border: 2px solid black;
     text-align: center;
