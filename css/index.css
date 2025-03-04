@@ -38,11 +38,11 @@ body {
   .Pop-up_ad{
     display: none;
     position: fixed;
-    width: 500px;
-    height: 500px;
-    right: 500px;
-    bottom: 100px;
-    background: rgb(54, 255, 94);
+    width: 400px;
+    height: 400px;
+    right: 450px;
+    bottom: 200px;
+    background: rgb(186, 187, 184);
     border: 2px solid black;
     text-align: center;
     box-shadow: 0 0 15px black;
@@ -63,6 +63,7 @@ body {
     text-align: right;
     padding-right: 20px;
     padding-top: 20px;
+    box-shadow: black 3px;
     button{
 
     width: 50px;
@@ -75,7 +76,7 @@ body {
     }
   }
   .Pop-up_ad_text{
-    padding-top: 150px;
+    /* padding-top: 100px; */
 
   }
   header {
@@ -87,11 +88,7 @@ body {
     top: 0;
     z-index: 9;
   }
-  /* .box_s1{
-      font-size: 40px;
-      cursor: pointer;
-  } */
-  
+
   .box_s2 {
     font-size: 20px;
     cursor: pointer;
@@ -209,8 +206,7 @@ body {
       margin-top: 20px;
     }
     h1{
-      color: rgb(3, 3, 253);
-      font-size: 40px;
+      color: rgb(227, 98, 98);      font-size: 40px;
     }
  
   }
@@ -226,13 +222,12 @@ body {
     /* border: 5px solid red; */
   }
   .product_1{
-    width: 30%;
     height: 300px;
     /* border: 2px solid black; */
     text-align: center;
     border-radius: 10px;
-    font-family: "Rubik Wet Paint", serif;
-    font-style: normal;
+    /* font-family: "Rubik Wet Paint", serif;
+    font-style: normal; */
     img{
       padding-top: 10px;
       width: 200px;

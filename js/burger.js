@@ -9,7 +9,7 @@ function declareBtns(){
 }
 function declareBtns2(){
   let burger_btn = document.querySelector("#Pop-up_ad");
-  let burger_btn2 = document.querySelector("#cc");
+  let burger_btn2 = document.querySelector("#ccc");
   
   let nav_open = document.querySelector("#ad_open");
   burger_btn.addEventListener("click",function(){
@@ -19,6 +19,8 @@ function declareBtns2(){
     (nav_open.style.display != "block") ?  nav_open.style.display = "block" :  nav_open.style.display = "none";
   })
 }
+
+
 
 declareBtns();
 declareBtns2();
