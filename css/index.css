@@ -190,7 +190,7 @@ body {
   }
   .title_product{
     /* border: 5px solid red; */
-    margin-top: 130px;
+    /* margin-top: 130px; */
     margin-bottom: 70px;
     text-align: center;
     font-family: "Rubik Wet Paint", serif;
@@ -219,7 +219,23 @@ body {
     display: flex;
     justify-content: space-around;
     max-width: 100%;
-    /* border: 5px solid red; */
+    /* background: gray; */
+    /* border: 5px solid black; */
+    /* border-radius: 10px;
+    box-shadow: 0px 10px 20px black; */
+    padding: 15px;
+    
+  }
+  .box_product1{
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    /* background: gray; */
+    border: 5px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px black;
+    padding: 15px;
+    
   }
   .product_1{
     height: 300px;
@@ -238,6 +254,34 @@ body {
       font-size: 30px;
       
     }
+  }
+  .product_2{
+    height: 300px;
+    border: 2px solid black;
+    box-shadow: 0px 10px 20px black;
+    margin: 15px;
+    text-align: center;
+    border-radius: 10px;
+    background: white;
+    color: black;
+    text-decoration: none;
+
+    /* font-family: "Rubik Wet Paint", serif;
+    font-style: normal; */
+    img{
+      padding-top: 10px;
+      width: 200px;
+      height: 200px;
+      border-radius: 30px;
+    }
+    p{
+      font-size: 30px;
+      
+    }
+  }
+  .product_2:hover{
+    color: aqua;
+    transition: 0.3s linear;
   }
   .swiper-container {
     /* border: 2px solid black; */
