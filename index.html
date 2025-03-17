@@ -221,34 +221,7 @@
     AOS.init();
 </script>
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-<script>
-    var swiper = new Swiper(".swiper-container", {
-        effect: "coverflow", // אפקט תלת-ממד
-        grabCursor: true, // הופך את המעבר לחלק יותר
-        centeredSlides: true, // השקופית המרכזית תהיה בפוקוס
-        slidesPerView: "auto", // מתאים את הגודל של התמונות
-        coverflowEffect: {
-            rotate: 50, // סיבוב קל של השקופיות
-            stretch: 0, // מתיחה - אפשר לשנות לערך גבוה לנראות רחבה יותר
-            depth: 200, // עומק תלת-ממדי
-            modifier: 1, // שליטה על העוצמה של האפקט
-            slideShadows: true // הצללות תלת-ממדיות
-        },
-        loop: true, // חזרה אינסופית
-        autoplay: {
-            delay: 3000,
-            disableOnInteraction: false
-        },
-        navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev"
-        },
-        pagination: {
-            el: ".swiper-pagination",
-            clickable: true
-        }
-    });
-</script>
+
 
 
 <script src="js/burger.js"></script>
