@@ -40,8 +40,8 @@ body {
     position: fixed;
     width: 400px;
     height: 400px;
-    right: 450px;
-    bottom:150px;
+    right: 40%;
+    top:15%;
     background: rgb(186, 187, 184);
     border: 2px solid black;
     text-align: center;
@@ -457,7 +457,7 @@ body {
         display: none;
       }
       
-}
+
 .Pop-up_ad{
   display: none;
   position: fixed;
@@ -496,6 +496,8 @@ body {
   padding-bottom: 40px;
  
   }
+
+}
 }
 
 @media (max-width: 470px) {
