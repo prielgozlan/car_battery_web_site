@@ -42,10 +42,12 @@ body {
     height: 400px;
     right: 40%;
     top:15%;
-    background: rgb(186, 187, 184);
-    border: 2px solid black;
+    /* background: rgb(186, 187, 184); */
+    background:rgb(41, 41, 41);
+    color: white;
+    border: 2px solid rgb(84, 84, 1);
     text-align: center;
-    box-shadow: 0 0 15px black;
+    box-shadow: 0 0 100px rgb(14, 2, 74);
     border-radius: 10%;
     z-index: 10;
 
@@ -63,17 +65,10 @@ body {
     text-align: right;
     padding-right: 20px;
     padding-top: 20px;
-    box-shadow: black 3px;
-    button{
-
-    width: 50px;
-    height: 50px;
-    font-size: 35px;
-    border-radius: 40%;
-    padding-bottom: 60px;
-    background: black;
-    color: white;
-    }
+    /* box-shadow: black 3px; */
+    /* color: rgb(232, 4, 4); */
+    font-size: 40px;
+    cursor: pointer;
   }
   header {
     padding: 0 25px;
@@ -465,12 +460,12 @@ body {
   height: 300px;
   right: 20%;
   top:15%;
-  background: rgb(186, 187, 184);
+  /* background: rgb(186, 187, 184); */
   border: 2px solid black;
   text-align: center;
-  box-shadow: 0 0 15px black;
+  /* box-shadow: 0 0 15px black;
   border-radius: 10%;
-  z-index: 10;
+  z-index: 10; */
 
   img{
     width: 50px;
@@ -486,16 +481,8 @@ body {
   text-align: right;
   padding-right: 20px;
   padding-top: 20px;
-  box-shadow: black 3px;
-  button{
-
-  width: 30px;
-  height: 30px;
-  font-size: 25px;
-  border-radius: 40%;
-  padding-bottom: 40px;
- 
-  }
+  /* box-shadow: black 3px; */
+  
 
 }
 }
@@ -563,11 +550,11 @@ body {
         height: 250px;
         right: 15%;
         top:25%;
-        background: rgb(186, 187, 184);
+        /* background: rgb(186, 187, 184);
         border: 2px solid black;
         text-align: center;
         box-shadow: 0 0 15px black;
-        border-radius: 10%;
+        border-radius: 10%; */
         z-index: 10;
     
         img{
@@ -584,8 +571,8 @@ body {
         text-align: right;
         padding-right: 20px;
         padding-top: 20px;
-        box-shadow: black 3px;
-        
+        /* box-shadow: black 3px; */
+/*         
         button{
     
         width: 30px;
@@ -595,7 +582,7 @@ body {
         padding-bottom: 40px;
         background: black;
         color: white;
-        }
+        } */
       }
 }
   
